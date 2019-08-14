@@ -57,3 +57,48 @@ html, body {
     height: 100%;
 }
 
+// BEGIN MAIN CSS HERE
+
+.test-border() {
+	border: 1px solid red;
+}
+
+body {
+	width: 90%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	// border: 1px solid red;
+	.test-border;
+}
+
+header {
+	display: flex;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	.test-border;
+
+	div {
+		min-width: 35%
+	}
+
+	img {
+		// min-width: 100%;
+		width: 100%;
+		height: auto;
+		.test-border;
+	}
+
+	p {
+		// min-width: 65%;
+		padding-left: 5%;
+		line-height: 1.5rem;
+		.test-border;
+	}
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
+} //header
+
