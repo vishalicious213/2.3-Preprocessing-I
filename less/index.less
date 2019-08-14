@@ -57,7 +57,7 @@ html, body {
     height: 100%;
 }
 
-// BEGIN MAIN CSS HERE
+// BEGIN MAIN CSS HERE --------------------
 
 .test-border() {
 	border: 1px solid red;
@@ -77,25 +77,30 @@ header {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	width: 100%;
-	.test-border;
+	align-items: center;
+	// .test-border;
 
 	div {
-		min-width: 35%
+		min-width: 35%;
 	}
 
 	img {
-		// min-width: 100%;
 		width: 100%;
 		height: auto;
-		.test-border;
+		// .test-border;
 	}
 
 	p {
 		// min-width: 65%;
 		padding-left: 5%;
 		line-height: 1.5rem;
-		.test-border;
+		// .test-border;
 	}
+
+	// Trying to make headshot stay at top when screen narrows
+	// @media (max-width: 800) {
+	// 	align-items: top;
+	// }
 
 	@media (max-width: 500px) {
 		flex-direction: column;
