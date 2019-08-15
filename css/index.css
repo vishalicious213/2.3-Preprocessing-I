@@ -139,7 +139,6 @@ body {
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid red;
 }
 header {
   display: flex;
@@ -163,4 +162,12 @@ header p {
   header {
     flex-direction: column;
   }
+}
+table {
+  table-layout: auto;
+  width: 90%;
+  margin: auto;
+}
+table td {
+  border-bottom: 1px dotted gray;
 }
