@@ -167,6 +167,8 @@ nav {
 }
 nav a {
   margin-left: 10%;
+  text-decoration: none;
+  color: dimgray;
 }
 @media (max-width: 500px) {
   nav {
@@ -206,8 +208,6 @@ table td {
   border-bottom: 1px dotted gray;
 }
 table tr:hover {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
   background-color: darkgray;
   color: white;
 }
@@ -225,6 +225,9 @@ section strong {
 }
 section p {
   font-family: 'Roboto', sans-serif;
+}
+section .gray-link {
+  color: dimgray;
 }
 @media (max-width: 500px) {
   section {
