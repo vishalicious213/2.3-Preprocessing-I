@@ -118,6 +118,8 @@ nav {
 
 	a {
 		margin-left: 10%;
+		text-decoration: none;
+		color: dimgray;
 	}
 
 	@media (max-width: 500px) {
@@ -165,8 +167,8 @@ table {
 	}
 
 	tr:hover {
-		border-top: @borderline;
-		border-bottom: @borderline;
+		// border-top: @borderline;
+		// border-bottom: @borderline;
 		background-color: darkgray;
 		color: white;
 	}
@@ -183,6 +185,10 @@ section {
 
 	p {
 		font-family: @p-font;
+	}
+
+	.gray-link {
+		color: dimgray;
 	}
 
 	@media (max-width: 500px) {
